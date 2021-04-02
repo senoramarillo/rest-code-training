@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 //@RestController
-public class RestCodeTrainingApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(RestCodeTrainingApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 //    @GetMapping

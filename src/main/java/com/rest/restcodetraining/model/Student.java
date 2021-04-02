@@ -1,16 +1,16 @@
-package com.rest.restcodetraining.student;
+package com.rest.restcodetraining.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
 
-@Entity
 @Table
+@Entity(name = "Student")
 public class Student {
 
     @Id
     @SequenceGenerator(
-            name= "student_sequence",
+            name = "student_sequence",
             sequenceName = "student_sequence",
             allocationSize = 1
     )
@@ -95,3 +95,4 @@ public class Student {
     }
 
 }
+

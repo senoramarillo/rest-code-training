@@ -1,5 +1,7 @@
-package com.rest.restcodetraining.student;
+package com.rest.restcodetraining.service;
 
+import com.rest.restcodetraining.model.Student;
+import com.rest.restcodetraining.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

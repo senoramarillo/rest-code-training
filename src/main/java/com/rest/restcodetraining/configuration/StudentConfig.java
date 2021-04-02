@@ -1,5 +1,7 @@
-package com.rest.restcodetraining.student;
+package com.rest.restcodetraining.configuration;
 
+import com.rest.restcodetraining.model.Student;
+import com.rest.restcodetraining.repository.StudentRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

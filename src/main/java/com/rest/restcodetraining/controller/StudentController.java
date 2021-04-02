@@ -1,5 +1,7 @@
-package com.rest.restcodetraining.student;
+package com.rest.restcodetraining.controller;
 
+import com.rest.restcodetraining.model.Student;
+import com.rest.restcodetraining.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
